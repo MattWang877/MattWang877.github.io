@@ -1,0 +1,1 @@
+import{_ as t,o,c as s,F as a,a as e}from"./index-63da26e5.js";const n={},_=e("div",{class:"about"},[e("h1",null,"This is an about page")],-1),c=e("div",{id:"fb-root"},null,-1);function r(i,l){return o(),s(a,null,[_,c],64)}const d=t(n,[["render",r]]);export{d as default};

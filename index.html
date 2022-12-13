@@ -1,44 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    </head>
-    <body>
-        Test Page
-        <!-- Messenger 洽談外掛程式 Code -->
-        <div id="fb-root"></div>
-
-        <!-- Your 洽談外掛程式 code -->
-        <div id="fb-customer-chat" class="fb-customerchat"></div>
-
-        <script>
-            var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute('page_id', '100773319538131');
-            chatbox.setAttribute('attribution', 'biz_inbox');
-        </script>
-
-        <!-- Your SDK code -->
-        <script>
-            window.fbAsyncInit = function () {
-                FB.init({
-                    xfbml: true,
-                    version: 'v15.0',
-                });
-            };
-
-            (function (d, s, id) {
-                var js,
-                    fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src =
-                    'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            })(document, 'script', 'facebook-jssdk');
-        </script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index-63da26e5.js"></script>
+    <link rel="stylesheet" href="/assets/index-81e4655a.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
 </html>
